@@ -1,0 +1,33 @@
+body {
+    background: cornsilk;
+}
+header {
+    text-align: right; 
+    margin: auto 20px;
+}
+.btn-cart {
+    background: rgb(209, 162, 44);
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.product-item {
+    font-size: 20px;
+    border: 1px solid #000;
+    width: 200px;
+    text-align: center;
+    height: 400px;
+    background: rgb(240, 231, 195);
+    margin: 50px;
+}
+.product-item img {
+    margin: 10px auto;
+    width: 90%;
+    height: 40%;
+}
